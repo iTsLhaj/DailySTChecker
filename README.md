@@ -1,24 +1,66 @@
-# Valorant store checker - Discord Bot
-Discord bot that shows valorant your daily store by using ingame API.
-Written in Python using [Pycord](https://github.com/Pycord-Development/pycord) library
+# [valorant] Daily Store Checker (Demo)
 
+A **Discord bot demo** written in Python to fetch and display a Valorant account’s daily store items. Designed for educational purposes to showcase **Python, Discord bot development, and API integration**.
 
-## Usage
+---
 
-/store `region (eu, ap, na, kr)` `username` `password`
+## ⚡ Features
 
-## Prerequisites
+* Fetches a Valorant account’s daily store items.
+* Sends results via Discord commands.
+* Demo project to illustrate bot commands, API usage, and basic Python project structure.
 
-* Python 3.6+
+---
 
-## Credits
+## 📦 Requirements
 
-### [Valorant Client API](https://github.com/RumbleMike/ValorantClientAPI) by [RumbleMike](https://github.com/RumbleMike)
-for providing a great API about Valorant!
+* Python 3.10+
+* [Pycord](https://docs.pycord.dev/) (Discord API library)
+* `requests` or other dependencies listed in `requirements.txt`
 
-### [Valorant-API.com](https://valorant-api.com/)
-for every skin names and images!
+Install dependencies via:
 
-## License
+```bash
+pip install -r requirements.txt
+```
 
-[MIT License](https://github.com/ShAdOwHaCkEeR/Legends/blob/master/LICENSE)
+---
+
+## 🚀 Usage
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/iTsLhaj/VALORANT-Store-Checker.git
+cd VALORANT-Store-Checker
+```
+
+2. Set up your Discord bot token in `bot.py`.
+3. Run the bot:
+
+```bash
+python bot.py
+```
+
+4. Use the `/store` command in Discord:
+
+```
+/store <region> <username> <password>
+```
+
+> **Important:** Only use test accounts or your own account. Do **not** share credentials with untrusted parties.
+
+---
+
+## ⚠️ Disclaimer
+
+* This is an **unofficial demo bot**.
+* Riot Games **does not endorse** or support this project.
+* Using your Riot account credentials carries **security and ToS risks**.
+* This project is for **educational purposes only**.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
